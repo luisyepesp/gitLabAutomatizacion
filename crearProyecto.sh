@@ -52,7 +52,7 @@ else
   echo "Proyecto creado"
   echo "Que proyecto deseas Clonar?"
   read proyectoClon
-  git clone https://gitlab.com:glpat-fyhRQ7rZcTgzozgsWX1x@gitlab.com/luisyepesp/$proyectoClon.git
+  git clone https://gitlab.com:key@gitlab.com/luisyepesp/$proyectoClon.git
   mv $proyectoClon $repo
   chmod +x $repo
   cd $repo
